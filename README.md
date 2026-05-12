@@ -2,7 +2,7 @@
 ## Project Description
 This is a final project for INFO-664 - Programming for Cultural Heritage. 
 
-It uses sentiment analysis tools to analyze how a particular topic is covered by various news outlets. 
+It uses sentiment analysis tools to analyze how the topic of 'immigration' is covered by various news outlets. 
 
 This project explores if there is a difference in vocabulary use across the political spectrum. 
 
