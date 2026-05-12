@@ -1,10 +1,26 @@
 # MediaCoverageAnalysis 
 ## Project Description
-This is a final project for INFO-664 - Programming for Cultural Heritage. 
+This is a final project for INFO-664 - Programming for Cultural Heritage. This project explores if there is a difference in vocabulary use across the political spectrum. It uses sentiment analysis tools to analyze how the topic of '**immigration**' is covered by various news outlets. 
 
-It uses sentiment analysis tools to analyze how the topic of 'immigration' is covered by various news outlets. 
+The sentiment analysis on the **entire dataset** revealed a:
+- negative score of 0.106
+- neutral score of 0.811
+- positive score of 0.083
 
-This project explores if there is a difference in vocabulary use across the political spectrum. 
+An analysis on the selection of **left-leaning** articles (The New York Times, ABC, Alternet, and BBC) revealed a: 
+- negative score was 0.114
+- neutral score was 0.794
+- positive score was 0.092
+
+When performed on a selection of **right-leaning** articles (Fox News, Daily Mail, The New York Post), the sentiment analysis revealed a:
+- negative score of 0.172
+- neutral score of 0.771
+- positive score of 0.05
+
+This small sample reveals that the language-use in headlines across all articles was generally **neutral**, with right-leaning publications using slightly more **negative language**. 
+
+The word frequency analysis revealed that across all articles, the words ‘**immigration**’, ‘**enforcement**’, and ‘**US**’ were the most common words. The most used words within the left-leaning article descriptions included ‘**immigration**’, ‘**trump**’, and ‘**president**’, while the top words used in the right-leaning article descriptions included ‘**immigration**’, ‘**illegal**’, and ‘**immigrant**’. The generated word clouds nicely illustrate this difference in language use. 
+
 
 ## Rationale Statement 
 I was curious to know how the language use and sentiment of news articles on a particular contentious topic differed depending on whether they were published by a left- or right-leaning publication. By comparing tone and vocabulary, this project aims to reveal subtle tonal differences that may influence how audiences interpret the same issue depending on which news outlet they follow. 
